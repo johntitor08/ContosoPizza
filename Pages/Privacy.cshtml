@@ -1,0 +1,9 @@
+﻿@page
+@model PrivacyModel
+@inject ContosoPizza.Services.IBusinessService BusinessService
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<h1 class="display-4">Welcome to Contoso Pizza</h1>
+<p class="lead">The best pizza in town for @BusinessService.DaysInBusiness days!</p>

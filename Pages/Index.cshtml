@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@inject ContosoPizza.Services.IBusinessService BusinessService
+@{
+    ViewData["Title"] = "The Home for Pizza Lovers";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>We’ve been in business for @BusinessService.DaysInBusiness days!</p>
+</div>
