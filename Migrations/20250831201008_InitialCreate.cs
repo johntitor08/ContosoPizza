@@ -19,7 +19,7 @@ namespace ContosoPizza.Migrations
                     Name = table.Column<string>(type: "TEXT", nullable: false),
                     Size = table.Column<int>(type: "INTEGER", nullable: false),
                     IsGlutenFree = table.Column<bool>(type: "INTEGER", nullable: false),
-                    Price = table.Column<decimal>(type: "TEXT", nullable: false)
+                    Price = table.Column<double>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -12,7 +12,7 @@ public class Pizza
     public bool IsGlutenFree { get; set; }
 
     [Range(0.01, 9999.99)]
-    public decimal Price { get; set; }
+    public double Price { get; set; }
 }
 
 public enum PizzaSize { Small, Medium, Large }
